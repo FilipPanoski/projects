@@ -23,5 +23,6 @@ public interface MovieMapper {
     @Mapping(source = "title", target = "name")
     @Mapping(source = "voteAverage", target = "rating")
     @Mapping(source = "releaseDate", target = "releaseDate")
+    @Mapping(source = "posterPath", target = "posterPath")
     Movie resultJsonToMovie(MovieResultJson resultJson);
 }

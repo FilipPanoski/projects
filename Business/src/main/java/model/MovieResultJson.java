@@ -71,4 +71,9 @@ public class MovieResultJson {
     public String getReleaseDate() {
         return releaseDate;
     }
+
+    @JsonProperty("poster_path")
+    public String getPosterPath() {
+        return posterPath;
+    }
 }

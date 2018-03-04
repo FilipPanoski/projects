@@ -13,5 +13,6 @@ public class Movie {
     private String name;
     private Integer rating;
     private String releaseDate;
+    private String posterPath;
     private List<Genre> genres = new ArrayList<Genre>();
 }
